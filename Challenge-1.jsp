@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : Challenge-1
     Created on : 2016/04/26, 10:42:31
     
@@ -26,4 +26,3 @@
 String talk = "Hello wolrd.";
 %>
 <%= talk %>
-
