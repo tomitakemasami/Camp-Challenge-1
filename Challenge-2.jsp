@@ -1,7 +1,7 @@
 <%-- 
     Document   : Challenge-2
     Created on : 2016/04/26, 10:44:30
-    Author     : suzunokawamoto
+    
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
