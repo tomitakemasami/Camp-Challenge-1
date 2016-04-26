@@ -19,9 +19,8 @@
 
 <%//１．「Hello world.」を表示してください。%>
 <%
-                out.print("Hello wolrd.");
+                out.print("Hello wolrd."+"<br>");
 %>
-<br>
 <%
 String talk = "Hello wolrd.";
 %>
