@@ -1,5 +1,5 @@
 <%-- 
-    Document   : Challenge-8
+    Document   : Challenge-10
     Created on : 2016/04/26, 16:35:01
 --%>
 
@@ -15,20 +15,19 @@
     </body>
 </html>
 
+<%
+//３．for文を利用して、8を20回掛ける処理を実現してください。
+%>
 
 <%
-    int num = 3; String message = "";
+long ans = 1;
+
+for (long i=0;i<21;i++){
     
-    switch(num) {
-        case 1:
-            message = "one";
-            break;
-        case 2:
-            message = "two";
-            break;
-        default:
-            message = "想定外";
-            break;
-    }
-    out.println(message);
+    ans = ans*8;
+    
+    //out.print(ans+"<br>");
+    //↑ブラウザに表示させると最大値がオーバーする
+}
+
 %>
