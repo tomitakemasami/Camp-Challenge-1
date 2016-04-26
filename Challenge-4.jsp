@@ -19,4 +19,3 @@ int wari = a / b;
 int amari = a % b;
 
 %>
-
